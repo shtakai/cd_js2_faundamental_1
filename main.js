@@ -36,3 +36,14 @@ for(var idx = 1; idx < sample_arr.length; idx++){
 }
 console.log('min:',min);
 console.log('max:',max);
+
+var new_ninja = {
+  name: 'Jessica',
+  profession: 'coder',
+  favorite_language: 'JavaSciript',
+  dojo: 'Dallas'
+}
+
+for(var key in new_ninja){
+   console.log(key, new_ninja[key]);
+}
